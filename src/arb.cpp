@@ -2,11 +2,25 @@
 #include <cmath>
 #include <string>
 
+// Add ltString
+
+// Add Fibonacci
+
+// Add factorials
+
+// Add Euclid's Algorithm
+
+// Add fractional arithmetic
+
+// Add COMMENTS! 
+
+// Add testing 
+
+// Add .h file
+
 // Add string equalizer (convert two numbers to same length using zeros)
 
 // Add subtraction (Common Core) and regular subtraction
-
-// Add case if one of numbers is zero
 
 // Add MSB comparison in multString and powerString
 
@@ -52,12 +66,19 @@ std::string addString (std::string a, std::string b) {
         resString = "1" + resString;
     
     
-    //std::cout << a << std::endl;
-    //std::cout << b << std::endl;
+    return resString;
+}
+
+bool ltString(std::string a, std::string b)
+{
+    return false;
+}
+
+std::string ccsubString(std::string a, std::string b) {
+    std::string resString = "0";
     
-    //std::cout << resString << std::endl;
-    
-    
+    while(ltString(a, addString(b, resString)))
+        addString(resString, "1");
     
     return resString;
 }
@@ -103,6 +124,7 @@ std::string powerString(std::string a, std::string b)
 
 int main(int argc, char * argv[]) {
     
+    std::cout << addString("0","0") << std::endl;
     
     return 0;
 }
