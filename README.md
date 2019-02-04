@@ -1,7 +1,7 @@
 # arb
 An arbitrary-precision arithmetic library for C++
 
-All software is created for two reasons: fun or necessity.
+## All software is created for two reasons: fun or necessity.
 
 arb was created for both.
 
