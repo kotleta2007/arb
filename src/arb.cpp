@@ -2,6 +2,8 @@
 #include <cmath>
 #include <string>
 
+// Add subtraction (Common Core) and regular subtraction
+
 // Add case if one of numbers is zero
 
 // Add MSB comparison in multString and powerString
