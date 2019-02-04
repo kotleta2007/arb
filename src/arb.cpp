@@ -2,6 +2,8 @@
 #include <cmath>
 #include <string>
 
+// Add string equalizer (convert two numbers to same length using zeros)
+
 // Add subtraction (Common Core) and regular subtraction
 
 // Add case if one of numbers is zero
